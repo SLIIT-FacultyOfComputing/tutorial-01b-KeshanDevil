@@ -6,16 +6,16 @@
 
 int main() {
       int m1,m2;
-      printf("input mark");
-      scanf("%d",&m1);
-      printf("input mark");
-      scanf("%d",&m2);
+      cout<<"input mark";
+      cin>>m1;
+      cout<<"input mark";
+      cin>>m2;
    int avg;
    int sum;
    sum=m1+m2;
    avg=sum/2;
    
-   printf("%d",avg);
+   cout<<"average:"<<avg;
   return 0;
 }
 
