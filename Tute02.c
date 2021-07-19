@@ -16,18 +16,18 @@ Amount = 20 x 50 = 1000
 Distance -> 50
 Amount = 30 x 50 + (50-30) x 40 = 2300*/
 
-#include <stdio.h>
+#include <iostream>
 
 int main() {
   int dis,amount;
-  printf("distance");
-  scanf("%d",&dis);
+  cout<<"distance";
+  cin>>dis;
   
   if(dis<=30){
    amount=dis*50;
   }else if(dis>=30){
     amount=dis*30+(dis-30)*40; 
   }
-  printf("%d",amount);
+  cout<<"amount:"<<amount;
   return 0;
 }
